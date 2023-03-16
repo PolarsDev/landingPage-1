@@ -1,5 +1,6 @@
 @import '../src/common/fonts/fonts.css';
 @import '../src/common/variable.css';
+@import './common/commonClasses.css';
 
 body {
   margin: 0;

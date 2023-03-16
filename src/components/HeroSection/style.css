@@ -19,6 +19,11 @@
     line-height: 38px;
 }
 
+a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
 @media all and (max-width: 1279px){
     .hero-heading{
         font-size: 82px;

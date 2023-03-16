@@ -3,9 +3,9 @@ import HeroSection from '../components/HeroSection/heroSection';
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <HeroSection/>
-    </div>
+    </>
   )
 }
 

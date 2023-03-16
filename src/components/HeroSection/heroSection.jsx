@@ -24,7 +24,7 @@ const HeroSection = () => {
     // To prevent page refresh
     event.preventDefault();
 
-    //clear all input values after submit 
+    //clear input values after submit 
     setDepartment('');
 };
 

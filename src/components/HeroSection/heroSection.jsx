@@ -33,7 +33,7 @@ const HeroSection = () => {
     <div className='flex absolute-center flex-col hero-section max-width'>
       {/* -------------------------- Heading ------------------------- */}
       <div className='hero-heading'>
-      PolarsDev Coming Soon!
+      Polars Dev Coming Soon!
       </div>
 
       {/* ----------------------- Sub-Heading ------------------------ */}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../common/Button/button';
 import './style.css'
 
 const HeroSection = () => {
@@ -13,7 +14,10 @@ const HeroSection = () => {
       <div className='hero-subheading'>
         Polaris for your Developement.
       </div>
-      </div>      
+      <a href='#'>
+        <Button buttonText="Notify Me"/>
+      </a>
+    </div> 
     </div>
 }
 

@@ -54,10 +54,10 @@ const HeroSection = () => {
 <form ref={form} onSubmit={sendEmail}>
       <div className='wrapper'> 
       <input type="checkbox" id="click"/>
-      <label class="btn-1" for="click">Subscribe</label>
+      <label className="btn-1" htmlFor="click">Subscribe</label>
       <div className='field'>
-        <input type="email" id="user_email" name='user_email' value={user_email}  placeholder="Enter Your Email" onChange={event => setDepartment(event.target.value)}/>
-        <input type="submit" for="click" class="btn-2" value="Subscribe" />
+        <input type="email" id="user_email" className='user_email' value={user_email}  placeholder="Enter Your Email" onChange={event => setDepartment(event.target.value)}/>
+        <input type="submit" htmlFor="click" className="btn-2" value="Subscribe" />
       </div>
       </div>
       </form>
